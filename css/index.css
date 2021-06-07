@@ -96,11 +96,3 @@ img {
   filter: grayscale(100%);
   opacity: 0.3;
 }
-
-/* Rectangle 7 */
-
-position: absolute;
-width: 128px;
-height: 128px;
-
-background: linear-gradient(180deg, #4c85c6 0%, #2e51a3 100%), #f2f2f2;
