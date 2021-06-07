@@ -1,0 +1,106 @@
+:root {
+  --spacing-xs: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 12px;
+  --spacing-l: 16px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 60px;
+  --spacing-4xl: 120px;
+
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --line-height: 1.4;
+
+  --border-radius: 4px;
+  --white: #ffffff;
+  --bg-color: #f2f2f2;
+
+  --button-bg: linear-gradient(180deg, #4c85c6 0%, #2e51a3 100%), #2f52a4;
+  --button-text-color: #fff;
+  --button-padding: var(--spacing-m) var(--spacing-3xl);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: var(--bg-color);
+  font-size: 14px;
+  font-family: var(--font-family);
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  max-width: 285px;
+}
+
+.product-card {
+  --padding: var(--spacing-2xl);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: var(--white);
+  align-items: center;
+  border-radius: var(--border-radius);
+}
+
+.product-card__image {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  max-width: 400px;
+}
+
+.product-card__button {
+  position: absolute;
+  display: none;
+  padding: var(--button-padding);
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 700;
+  background: var(--button-bg);
+  color: var(--button-text-color);
+}
+
+.product-card__content {
+  padding: 0 var(--padding) var(--padding) var(--padding);
+  text-align: center;
+}
+
+.product-card__content > * {
+  margin-bottom: var(--spacing-xs);
+}
+
+.product-card:hover .product-card__button,
+.product-card__button:focus {
+  display: flex;
+}
+
+.product-card:hover .product-card__image img {
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 128px;
+height: 128px;
+
+background: linear-gradient(180deg, #4c85c6 0%, #2e51a3 100%), #f2f2f2;
