@@ -1,27 +1,22 @@
-# Product Card
+# PXU Product Card
 
-Welcome to the fancy Pixel Union Frontend Tech Interview!
+Fancy Pixel Union Frontend Tech Interview!
 
-The goal of these tech interviews is to get a feel for how you approach
-development, providing a platform to talk through common, day-to-day
-challenges and the technologies we use to solve them.
+By Brendan Walker
 
-This is a highly-practical exercise. To prepare, we're asking that you build a
-small web component, a product "card", using HTML/CSS/JS. Then, during the
-interview we'll ask you to extend that with a few new features, talking through
-your thought process. You are totally free to use any resources at your
-disposal—search the web, look up something in a book, even ask me questions. Use
-the tools you are comfortable with. No programming on whiteboards or balancing
-binary trees :)
+## Available Scripts
 
-## Step 1
+In the project directory, you can run:
 
-![Step 1](docs/step1.png)
+- `npm start` ([http://localhost:3000](http://localhost:3000))
+- `npm test`
+- `npm run build`
+- `npm run eject`
 
-## Step 2
+## Development Process
 
-???
+### feature-1/setup
 
-## Step 3
-
-???
+- Initialized project boilerplate using `npx create-react-app .`
+- Setup tailwindcss (my CSS framework of choice) following this [guide](https://tailwindcss.com/docs/guides/create-react-app)
+    - Sticking with defaults for now
