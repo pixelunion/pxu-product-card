@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply bg-gray-100;
+}
+
+.product-card {
+  @apply w-64 px-2 pt-3 pb-8 bg-white shadow rounded;
+}
+
+.product-card:hover .product-card__img {
+  @apply opacity-25;
+}
+
+.product-card:hover .product-card__btn {
+  @apply opacity-100;
+}
+
+.product-card__img {
+  @apply transition-all opacity-100;
+}
+
+.product-card__btn {
+  @apply absolute inset-0 m-auto px-6 py-1.5 bg-gradient-to-t from-blue-800 to-blue-500 text-white rounded transition-all opacity-0;
+  height: fit-content;
+}

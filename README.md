@@ -20,3 +20,8 @@ In the project directory, you can run:
 - Initialized project boilerplate using `npx create-react-app .`
 - Setup tailwindcss (my CSS framework of choice) following this [guide](https://tailwindcss.com/docs/guides/create-react-app)
     - Sticking with defaults for now
+
+### feature-2/product-card-component
+
+- Created ProductCard component using basic html + tailwind styles
+- Added fake data and simplified codebase
