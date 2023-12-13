@@ -9,7 +9,7 @@ challenges and the technologies we use to solve them.
 This is a highly-practical exercise. To prepare, we're asking that you build a
 small web component, a product "card", using HTML/CSS/JS. Then, during the
 interview we'll ask you to extend that with a few new features, talking through
-your thought process. You are totally free to use any resources at your
+your thought process. You are totally free to use any resources or frameworks at your
 disposal—search the web, look up something in a book, even ask me questions. Use
 the tools you are comfortable with. No programming on whiteboards or balancing
 binary trees :)
@@ -20,8 +20,8 @@ binary trees :)
 
 ## Step 2
 
-???
+To be shared during the interview and coded live!
 
 ## Step 3
 
-???
+To be shared during the interview and coded live!
